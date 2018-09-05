@@ -1,10 +1,10 @@
 ---
 layout: bidder
 title: Gamoshi
-description: Prebid Gambid Bidder Adaptor
+description: Prebid Gamoshi Bidder Adaptor
 top_nav_section: dev_docs
 nav_section: reference
-biddercode: gambid
+biddercode: gamoshi
 biddercode_longer_than_12: false
 hide: true
 prebid_1_0_supported : true
@@ -17,8 +17,8 @@ gdpr_supported: true
 {: .table .table-bordered .table-striped }
 | Name              | Scope    | Description                                                   | Example              | Type     |
 |-------------------|----------|---------------------------------------------------------------|----------------------|----------|
-| `supplyPartnerId` | required | ID of the supply partner you created in the Gambid dashboard. | `'12345'`            | `string` |
+| `supplyPartnerId` | required | ID of the supply partner you created in the dashboard. | `'12345'`            | `string` |
 | `rtbEndpoint`     | optional | If you have a whitelabel account on Gamoshi, specify it here. | `'rtb.mybidder.com'` | `string` |
 
 This adapter only requires you to provide your supply partner ID, and optionally your RTB endpoint, in order to request
-bids from your Gamoshi Gambid account.
+bids from your Gamoshi account.
